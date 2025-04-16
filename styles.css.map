@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "sources": [],
-  "sourcesContent": [],
-  "mappings": "",
+  "sources": ["src/styles/elements.scss", "src/styles/classes.scss"],
+  "sourcesContent": ["\nbody {\n  margin: 0;\n  font: 16px/1.5 'Roboto Slab', serif;\n  font-weight: 300;\n  background-color: #F3F7F0;\n  min-height: 50vh;\n  max-height: 90vh;\n}\n\nheader, footer{\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n}\n\nheader {\n  margin-top: 1rem\n}\nfooter {\n  margin-bottom: 1rem;\n  font-size: 2rem;\n}\n\nmain {\n  margin: 0 20rem;\n  min-height: 70vh;\n}\n\nnav>ul {\n  display: flex;\n  flex-direction: row;\n  list-style: none;\n  gap: 1rem;\n  padding: 0;\n  margin: 0;\n}\na {\n  color: black;\n  text-decoration: none;\n}\nh2 {\n  margin-bottom: 0;\n}", ".app-container {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  height: 100vh;\n}\n\n.active {\n  font-weight: 500;\n  color:#A93F55\n}\n\n.bold {\n  font-weight: 700;\n}\n\n.description {\n  font-weight: 300;\n}"],
+  "mappings": ";AACA;AACE,UAAA;AACA,QAAA,IAAA,CAAA,IAAA,aAAA,EAAA;AACA,eAAA;AACA,oBAAA;AACA,cAAA;AACA,cAAA;;AAGF;AAAA;AACE,WAAA;AACA,kBAAA;AACA,mBAAA;;AAGF;AACE,cAAA;;AAEF;AACE,iBAAA;AACA,aAAA;;AAGF;AACE,UAAA,EAAA;AACA,cAAA;;AAGF,IAAA,EAAA;AACE,WAAA;AACA,kBAAA;AACA,cAAA;AACA,OAAA;AACA,WAAA;AACA,UAAA;;AAEF;AACE,SAAA;AACA,mBAAA;;AAEF;AACE,iBAAA;;;;AC1CF,CAAA;AACE,WAAA;AACA,kBAAA;AACA,mBAAA;AACA,UAAA;;AAGF,CAAA;AACE,eAAA;AACA,SAAA;;AAGF,CAAA;AACE,eAAA;;AAGF,CAAA;AACE,eAAA;;",
   "names": []
 }
