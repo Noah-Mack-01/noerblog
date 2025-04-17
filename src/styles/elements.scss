@@ -23,7 +23,7 @@ footer {
 }
 
 main {
-  margin: 0 20rem;
+  margin: 0 20%;
   min-height: 70vh;
 }
 
@@ -41,4 +41,21 @@ a {
 }
 h2 {
   margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+li>a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px  
+}
+
+
+
+li>a>span {
+  min-width: 80px;
 }

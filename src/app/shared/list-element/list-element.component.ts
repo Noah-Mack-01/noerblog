@@ -5,14 +5,16 @@ import { Component, Input } from '@angular/core';
   /*templateUrl: './list-element.component.html',*/
   template: `<li>
     @if (data.link) {<a [href]="data.link" target="_blank">
-    @if (data.timestamp) { <span [classList]="['timestamp']">{{data.timestamp.toLocaleDateString()}} </span> } -  
-    <span [classList]="['bold']">{{data.boldText}}:</span>
-    <span [classList]="['description']"> {{data.descriptionText}}</span>
+    @if (data.timestamp) {<span [classList]="['timestamp']">{{data.timestamp.toLocaleDateString()}} </span> }
+    <div><span [classList]="['bold']">{{data.boldText}}:</span>
+    <span [classList]="['description']"> {{data.descriptionText}}</span></div>
     </a> } @else {
-    @if (data.timestamp) { <span [classList]="['timestamp']">{{data.timestamp.toLocaleDateString()}} </span> } -  
-    <span [classList]="['bold']">{{data.boldText}}:</span>
-    <span [classList]="['description']"> {{data.descriptionText}}</span>
+
+    @if (data.timestamp) { <span [classList]="['timestamp']">{{data.timestamp.toLocaleDateString()}} </span> }  
+    <div><span [classList]="['bold']">{{data.boldText}}:</span>
+    <span [classList]="['description']"> {{data.descriptionText}}</span></div>
     }
+
     </li>`
 })
 export class ListElementComponent {
