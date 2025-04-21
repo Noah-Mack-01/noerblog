@@ -8,8 +8,14 @@ import { ListElement, ListElementComponent } from '../../shared/list-element/lis
   styleUrl: './projects-list.component.scss'
 })
 export class ProjectsListComponent {
-
-  list?: ListElement[] = [{
+  list?: ListElement[] = [
+    {
+      link: "https://github.com/meilisearch/meilisearch-java/pull/840",
+      boldText: "Meilisearch Java Filter API",
+      descriptionText: "JSON serialization/deserialization for backwards-compatible filtration configurations",
+      timestamp: new Date(Date.parse("04/21/2025"))
+    },
+    {
     link: "https://github.com/Noah-Mack-01/mr-grep",
     boldText: "Map Reduce Grep",
     descriptionText: "Implementation of Google's 2004 distributed processing algorithm.",
